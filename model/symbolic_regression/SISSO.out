@@ -1,0 +1,113 @@
+****************************************************************
+  Sure Independence Screening and Sparsifying Operator (SISSO)  
+             Version SISSO.3.2, September, 2022.                
+****************************************************************
+
+Read in data from train.dat.
+Read in parameters from SISSO.in
+Property type:     1
+Number of tasks:        1
+Descriptor dimension:        2
+Number of samples for each task:     3362
+Restarts :  0
+Number of scalar features:       34
+Tier of the feature space:        3
+Maximal feature complexity (number of operators in a feature):        5
+Units of the input primary features (each represented by a vector): 
+  1.00
+  1.00
+  1.00
+  1.00
+  1.00
+  1.00
+  1.00
+  1.00
+  1.00
+  1.00
+  1.00
+  1.00
+  1.00
+  1.00
+  1.00
+  1.00
+  1.00
+  1.00
+  1.00
+  1.00
+  1.00
+  1.00
+  1.00
+  1.00
+  1.00
+  1.00
+  1.00
+  1.00
+  1.00
+  1.00
+  1.00
+  1.00
+  1.00
+  1.00
+The feature will be discarded if the minimum of the maximal abs. value in it <    0.10000E-04
+The faature will be discarded if the maximum of the maximal abs. value in it >     0.10000E+06
+Size of the SIS-selected (single) subspace :      100     100
+Operators for feature construction: (*)(/)(^-1)(sqrt)(^2) (*)(/)(^-1)(sqrt)(^2) (*)(/)(^-1)(sqrt)(^2) 
+Fitting intercept:      T
+Metric for model selection: RMSE
+Method for sparse regression:  L0        
+Number of the top-ranked models to output:       20
+--------------------------------------------------------------------------------
+
+Dimension:   1
+-------------------
+Feature Construction (FC) starts ...
+Population Standard Deviation (SD) of task 001:    0.85750
+Total number of features in the space phi00:             34
+Total number of features in the space phi01:           1249
+Total number of features in the space phi02:         325585
+Total number of features in the space phi03:     1230119382
+Size of the SIS-selected subspace from phi03:        100
+Time (second) used for this FC:         3294.22
+
+Descriptor Identification (DI) starts ...
+Total number of SIS-selected features from all iterations:        100
+  1D descriptor (model): 
+RMSE and MaxAE:   0.449821  2.939027
+@@@descriptor: 
+                      1:[((MagpieDatameanElectronegativityformula*(MagpieDatameanNpValenceformula*local_difference_in_Electronegativity_allsites))/sqrt((MagpieDatameanNValence]
+       coefficients_001:    -0.2818514722E+00
+          Intercept_001:    -0.3573570029E+00
+         RMSE,MaxAE_001:     0.4498214464E+00    0.2939027117E+01
+--------------------------------------------------------------------------------
+Time (second) used for this DI:            0.12
+
+Dimension:   2
+-------------------
+Feature Construction (FC) starts ...
+Total number of features in the space phi00:             34
+Total number of features in the space phi01:           1249
+Total number of features in the space phi02:         325585
+Total number of features in the space phi03:     1230119382
+Size of the SIS-selected subspace from phi03:        100
+Time (second) used for this FC:         3210.75
+
+Descriptor Identification (DI) starts ...
+Total number of SIS-selected features from all iterations:        200
+
+Final model/descriptor !
+================================================================================
+  2D descriptor (model): 
+RMSE and MaxAE:   0.368691  2.742077
+@@@descriptor: 
+                     37:[((MagpieDatameanElectronegativityformula*sqrt(MagpieDatameanNpValenceformula))*sqrt((local_difference_in_Electronegativity_allsites/MagpieDatameanNVal]
+                    156:[(((MagpieDataavg_devNUnfilledformula/MagpieDatameanNUnfilledformula))^2*(MagpieDatameanNpValenceformula*(ewald_energy_per_atom*MagpieDatarangeNUnfille]
+       coefficients_001:    -0.8789549192E+00    0.3396252716E-02
+          Intercept_001:     0.1626686146E+00
+         RMSE,MaxAE_001:     0.3686909472E+00    0.2742077235E+01
+================================================================================
+Time (second) used for this DI:            0.33
+
+Total time (second):         6506.22
+
+Have a nice day !    
+

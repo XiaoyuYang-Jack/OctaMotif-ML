@@ -1,0 +1,23 @@
+#!/bin/bash
+#PBS -N sisso
+#PBS -l nodes=1:ppn=32
+#PBS -q debug
+#PBS -e ${PBS_JOBNAME}.err
+#PBS -o ${PBS_JOBNAME}.out
+
+cd $PBS_O_WORKDIR
+NP=`wc -l<$PBS_NODEFILE`
+
+export OMP_NUM_THREADS=1
+MKL_DEBUG_CPU_TYPE=5
+export MKL_DEBUG_CPU_TYPE=5
+
+#source /public/apps/intel/oneapi/setvars.sh
+#export LD_LIBRARY_PATH=/public/apps/intel/oneapi/compiler/2021.2.0/linux/compiler/lib/intel64_lin/:$LD_LIBRARY_PATH
+#export LD_LIBRARY_PATH=/public/apps/intel/oneapi/mpi/latest/libfabric/lib:$LD_LIBRARY_PATH
+#export LD_LIBRARY_PATH=/public/apps/gcc-11.1.0/lib64:$LD_LIBRARY_PATH
+source /public/intel2017/compilers_and_libraries_2017.8.262/linux/mpi/mic/bin/mpivars.sh intel64
+source /public/intel2017/compilers_and_libraries_2017.8.262/linux/bin/compilervars.sh intel64
+source /public/intel2017/compilers_and_libraries_2017.8.262/linux/mkl/bin/mklvars.sh intel64
+
+mpirun -np $NP /public/home/xyyang/software/SISSO > run.log

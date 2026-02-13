@@ -1,0 +1,35 @@
+,feature,importance
+0,EnB/rB-6*EnX/rX,0.29371199145033644
+1,MagpieData mean NdValence formula,0.16014955187213134
+2,local_difference_in_NdValence_allsites,0.08089938502639789
+3,local_difference_in_Electronegativity_allsites,0.06516938828901551
+4,MagpieData maximum GSbandgap formula,0.0583884699247049
+5,MagpieData minimum Electronegativity formula,0.04554916842810357
+6,Electronegativity_B-6X,0.03367351579005999
+7,MagpieData mode Electronegativity formula,0.03304387075455731
+8,MagpieData maximum NdValence formula,0.02089196454611647
+9,MagpieData range NUnfilled formula,0.019343683407185244
+10,MagpieData range NdValence formula,0.018855486155174787
+11,MagpieData range CovalentRadius formula,0.01804635935395348
+12,MagpieData avg_dev NUnfilled formula,0.014721153284132243
+13,MagpieData mean NsUnfilled formula,0.013800312542349574
+14,MagpieData maximum NdUnfilled formula,0.013104639282219426
+15,local_difference_in_Electronegativity,0.011975328001104308
+16,MagpieData mode GSvolume_pa _B,0.009305714139244898
+17,MagpieData avg_dev GSbandgap formula,0.008555684168965506
+18,mean neighbor distance variation,0.007191440090792985
+19,MagpieData mean NValence formula,0.006778227415377305
+20,MagpieData mean NpValence formula,0.006712916322029044
+21,local_difference_in_GSbandgap_allsites,0.006392100943352738
+22,local_difference_in_CovalentRadius,0.006173835130296922
+23,std_dev ewald_site_energy,0.005171025404223529
+24,EnB/SIrB-6*EnX/SIrX,0.004922854132915611
+25,EnB/SIrB,0.0048166964800125285
+26,density,0.0047227330628316615
+27,(EnB-6*EnX)/coval_r_B-6X,0.00461854572757014
+28,ewald_energy_per_atom,0.0045230740955448665
+29,MagpieData mean Electronegativity formula,0.004372670495014593
+30,local_difference_in_CovalentRadius_allsites,0.003932993606061214
+31,SIr_B_SIr_X,0.0036566950713809747
+32,MagpieData mean NUnfilled formula,0.00364793279538531
+33,EnB/rB,0.0031805928114577026
