@@ -3,7 +3,7 @@
 Code and data accompanying the manuscript:
 
 **Octahedral Motif-Guided Design of Optoelectronic Semiconductors via Interpretable Machine Learning**  
-Xiaoyu Yang\*#, Wenyue Zhao\*#, Xin He, Weidong Fei, Yuanhui Sun\*, Yu Zhao\*, Lijun Zhang\*  
+Xiaoyu Yang\#, Wenyue Zhao\#, Xin He, Weidong Fei, Yuanhui Sun\*, Yu Zhao\*, Lijun Zhang\*  
 \# Equal contribution  
 \* Corresponding authors: sunyh@szlab.ac.cn; yuzhao@hit.edu.cn; lijun_zhang@jlu.edu.cn
 
