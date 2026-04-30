@@ -1,0 +1,35 @@
+feature,family,complexity,lineage_stage,required_manuscript_template,in_clean_raw_pool,in_template_candidate_pool,in_stage1_base_pool,in_stage2_first_order_pool,in_stage3_second_order_pool,in_pre_rfe_pool,in_automated_final
+EnB/rB-6*EnX/rX,electronegativity_covalent_radius_ratio,2,level2_template,True,False,True,False,False,True,True,True
+MagpieData mean NdValence formula,d_valence,0,raw,False,True,False,True,True,True,True,True
+local_difference_in_NdValence_allsites,local_difference:d_valence,0,raw,False,True,False,True,True,True,True,True
+local_difference_in_Electronegativity_allsites,local_difference:electronegativity,0,raw,False,True,False,False,False,False,False,False
+MagpieData maximum GSbandgap formula,bandgap,0,raw,False,True,False,True,True,True,True,True
+MagpieData minimum Electronegativity formula,electronegativity,0,raw,False,True,False,False,False,False,False,False
+Electronegativity_B-6X,electronegativity_contrast,1,level1_template,True,False,True,False,True,False,False,False
+MagpieData mode Electronegativity formula,electronegativity,0,raw,False,True,False,True,False,False,False,False
+MagpieData range NdValence formula,d_valence,0,raw,False,True,False,True,True,True,True,True
+MagpieData range NUnfilled formula,unfilled,0,raw,False,True,False,True,True,True,True,True
+MagpieData maximum NdValence formula,d_valence,0,raw,False,True,False,True,True,True,True,True
+MagpieData range CovalentRadius formula,covalent_radius,0,raw,False,True,False,True,True,True,True,True
+MagpieData avg_dev NUnfilled formula,unfilled,0,raw,False,True,False,True,True,True,True,True
+MagpieData mean NsUnfilled formula,s_unfilled,0,raw,False,True,False,False,False,False,False,False
+MagpieData maximum NdUnfilled formula,d_unfilled,0,raw,False,True,False,True,True,True,False,False
+local_difference_in_Electronegativity,local_difference:electronegativity,0,raw,False,True,False,True,True,True,True,True
+MagpieData mode GSvolume_pa _B,volume,0,raw,False,True,False,False,False,False,False,False
+MagpieData avg_dev GSbandgap formula,bandgap,0,raw,False,True,False,True,True,True,True,True
+mean neighbor distance variation,neighbor_distance,0,raw,False,True,False,False,False,False,False,False
+MagpieData mean NValence formula,valence,0,raw,False,True,False,True,True,True,True,True
+MagpieData mean NpValence formula,p_valence,0,raw,False,True,False,False,False,False,False,False
+local_difference_in_GSbandgap_allsites,local_difference:bandgap,0,raw,False,True,False,False,False,False,False,False
+local_difference_in_CovalentRadius,local_difference:covalent_radius,0,raw,False,True,False,True,True,True,True,True
+EnB/SIrB-6*EnX/SIrX,electronegativity_shannon_radius_ratio,2,level2_template,True,False,True,False,False,True,True,True
+std_dev ewald_site_energy,ewald,0,raw,False,True,False,True,True,True,True,True
+EnB/SIrB,electronegativity_shannon_radius_ratio,1,level1_template,True,False,True,False,False,False,False,False
+density,density,0,raw,False,True,False,True,True,True,True,True
+(EnB-6*EnX)/coval_r_B-6X,electronegativity_covalent_radius_contrast_ratio,2,level2_template,True,False,True,False,False,True,True,True
+ewald_energy_per_atom,ewald,0,raw,False,True,False,False,False,False,False,False
+MagpieData mean Electronegativity formula,electronegativity,0,raw,False,True,False,False,False,False,False,False
+local_difference_in_CovalentRadius_allsites,local_difference:covalent_radius,0,raw,False,True,False,False,False,False,False,False
+MagpieData mean NUnfilled formula,unfilled,0,raw,False,True,False,True,True,True,True,True
+SIr_B_SIr_X,shannon_radius_ratio,1,level1_template,True,False,True,False,False,False,False,False
+EnB/rB,electronegativity_covalent_radius_ratio,1,level1_template,True,False,True,False,False,False,False,False

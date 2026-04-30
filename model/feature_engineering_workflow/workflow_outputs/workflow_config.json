@@ -1,0 +1,31 @@
+{
+  "source_path": "../feature_set_add_connection.csv",
+  "output_dir": "workflow_outputs",
+  "manuscript_feature_set": "../feature_selection_combination/final_compact_feature_set.csv",
+  "selection_schedule": [
+    400,
+    300,
+    200,
+    100,
+    50
+  ],
+  "first_order_source": 20,
+  "first_order_max_candidates": 50,
+  "first_order_keep": 50,
+  "second_order_keep": 50,
+  "second_order_source": 10,
+  "second_order_max_candidates": 20,
+  "compact_scan_floor": 38,
+  "compact_scan_step": 2,
+  "final_floor": 24,
+  "split_repeats": 5,
+  "test_size": 0.1,
+  "random_seed": 0,
+  "n_estimators": 500,
+  "max_depth": 6,
+  "learning_rate": 0.05,
+  "min_samples_split": 2,
+  "min_samples_leaf": 1,
+  "loss": "squared_error",
+  "n_jobs": 5
+}

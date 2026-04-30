@@ -1,0 +1,117 @@
+rank,feature,family,importance
+1,MagpieData avg_dev Electronegativity formula,electronegativity,0.312541130553148
+2,PymatgenData std_dev X formula,other,0.10472164485125404
+3,DemlData std_dev electronegativity formula,other,0.0870864081506765
+4,(coval_r_B_coval_r_X)/(B_ionic_radius),covalent_radius,0.0778532719338424
+5,MagpieData avg_dev NdValence formula,d_valence,0.04358598000055781
+6,MagpieData range CovalentRadius formula,covalent_radius,0.043577645553053726
+7,MagpieData mean NdValence formula,d_valence,0.034676387658682827
+8,local_difference_in_NdValence_allsites,local_difference:d_valence,0.026670950724480412
+9,MagpieData maximum NdValence formula,d_valence,0.015430571200486349
+10,MagpieData range NdValence formula,d_valence,0.015426819333486603
+11,MagpieData range NUnfilled formula,unfilled,0.014669876201454194
+12,MagpieData mean SpaceGroupNumber formula,other,0.013387946824288278
+13,(MagpieData maximum NUnfilled _B)/(MagpieData mean CovalentRadius _X),covalent_radius,0.012790734885851437
+14,MagpieData maximum GSbandgap formula,bandgap,0.009757062910591521
+15,(MagpieData maximum NUnfilled _B)/(MagpieData mean GSvolume_pa _X),unfilled,0.00974644226974808
+16,MagpieData mean NUnfilled formula,unfilled,0.009571013944655532
+17,MagpieData mean NsValence formula,s_valence,0.00717198996570208
+18,DemlData minimum molar_vol formula,other,0.00690510369244156
+19,MagpieData avg_dev NUnfilled formula,unfilled,0.006807010439183053
+20,MagpieData avg_dev NsValence formula,s_valence,0.006228611535372681
+21,MagpieData mean NValence formula,valence,0.0057684686882615265
+22,MagpieData mode SpaceGroupNumber formula,other,0.005360877831886381
+23,MagpieData minimum NValence formula,valence,0.005063622806627162
+24,density,density,0.00487152678470003
+25,MagpieData avg_dev GSbandgap formula,bandgap,0.004375170422129247
+26,local_difference_in_Electronegativity,local_difference:electronegativity,0.004291219070245902
+27,(MagpieData maximum SpaceGroupNumber _X)+(DemlData minimum molar_vol _B),other,0.004268307375012132
+28,MagpieData range GSbandgap formula,bandgap,0.004178315185328482
+29,(MagpieData maximum SpaceGroupNumber _X)/(MagpieData maximum CovalentRadius _B),covalent_radius,0.00410694676747061
+30,(coval_r_B_coval_r_X)-(MagpieData mean CovalentRadius _X),covalent_radius,0.004040719437903193
+31,local_difference_in_CovalentRadius,local_difference:covalent_radius,0.0040232108216582095
+32,Electronegativity_B-6X,electronegativity_contrast,0.003995203196646543
+33,DemlData range first_ioniz formula,other,0.003938268793359398
+34,MagpieData range SpaceGroupNumber formula,other,0.0036990699045390805
+35,DemlData mean boiling_point formula,other,0.0034203117955269313
+36,DemlData mean first_ioniz formula,other,0.003417184733858265
+37,std_dev ewald_site_energy,ewald,0.0032153050868626958
+38,MagpieData maximum NdUnfilled formula,d_unfilled,0.0027491088905608274
+39,MagpieData maximum MendeleevNumber formula,other,0.002731230273258838
+40,MagpieData range NdUnfilled formula,d_unfilled,0.0025966656408043256
+41,maximum neighbor distance variation,neighbor_distance,0.0024509179028155614
+42,MagpieData maximum NUnfilled formula,unfilled,0.0023337188624712422
+43,(coval_r_B_coval_r_X)+(MagpieData mean CovalentRadius _X),covalent_radius,0.0022523111301478464
+44,MagpieData maximum CovalentRadius formula,covalent_radius,0.0022406379163949384
+45,Electronegativity_B-X,electronegativity_contrast,0.0021638392231982406
+46,DemlData range boiling_point formula,other,0.002029616083367574
+47,(coval_r_B_coval_r_X)/(MagpieData mean CovalentRadius _X),covalent_radius,0.0020140692467589174
+48,mean Average bond length,other,0.0018106927613115084
+49,(B_ionic_radius)/(B_shannon_rad),shannon_radius,0.0017855031067062345
+50,MagpieData maximum GSmagmom _B,other,0.0017180945005280627
+51,DemlData minimum molar_vol _B,other,0.0017010912823569977
+52,PymatgenData minimum thermal_conductivity formula,other,0.0016615437357876159
+53,pymatgen_B_poissons_ratio,other,0.0015809505220400837
+54,(MagpieData mean GSbandgap _X)/(MagpieData mean GSvolume_pa _B),bandgap,0.001559022409986897
+55,(B_ionic_radius)/(MagpieData mean GSvolume_pa _B),ionic_radius,0.0014839995023575333
+56,(MagpieData maximum SpaceGroupNumber _X)/(B_shannon_rad),shannon_radius,0.001475855051852121
+57,DemlData std_dev first_ioniz formula,other,0.001410083284068235
+58,EnB/rB,electronegativity_covalent_radius_ratio,0.0013939621302836648
+59,(MagpieData maximum NUnfilled _B)/(X_ionic_radius),ionic_radius,0.0012692133403341913
+60,oct_mean_bond,other,0.0012414924281254028
+61,(MagpieData mean GSbandgap _X)/(MagpieData maximum GSvolume_pa _B),bandgap,0.0011630686029396892
+62,min_bondlength,other,0.0011170839498692827
+63,(vB+6*vX)/pf,volume,0.0010836513311492455
+64,(B_ionic_radius)/(X_shannon_rad),shannon_radius,0.0009021533868537326
+65,(B_ionic_radius)/(MagpieData mean GSvolume_pa _X),ionic_radius,0.0008879450385347132
+66,(B_ionic_radius)/(MagpieData maximum GSvolume_pa _B),ionic_radius,0.0008829524946669945
+67,(coval_r_B_coval_r_X)/(B_shannon_rad),covalent_radius,0.0008776477409332152
+68,SI_r_6X-B,shannon_radius_contrast,0.0008517116857685199
+69,(B_ionic_radius)/(MagpieData mean CovalentRadius _B),covalent_radius,0.0008379565362998045
+70,MagpieData mean NpUnfilled _X,p_unfilled,0.0007746665065552996
+71,(MagpieData mean GSbandgap _X)/(B_ionic_radius),ionic_radius,0.0007642090543137144
+72,MagpieData mode Electronegativity formula,electronegativity,0.0007367619283547676
+73,(coval_r_B_coval_r_X)/(X_shannon_rad),covalent_radius,0.0007187437312558412
+74,(MagpieData mean GSbandgap _X)/(MagpieData mean CovalentRadius _B),covalent_radius,0.0007128700225264162
+75,(MagpieData mean GSbandgap _X)/(MagpieData maximum CovalentRadius _B),covalent_radius,0.000697091679560381
+76,(coval_r_B_coval_r_X)+(MagpieData maximum CovalentRadius _B),covalent_radius,0.0006895669774058074
+77,EnB/IrB,electronegativity_ionic_radius_ratio,0.0006343590760184675
+78,(B_ionic_radius)+(X_ionic_radius),ionic_radius,0.0005996288152900349
+79,(coval_r_B_coval_r_X)/(MagpieData maximum GSvolume_pa _B),covalent_radius,0.0005886432593622228
+80,(coval_r_B_coval_r_X)-(MagpieData maximum CovalentRadius _B),covalent_radius,0.0005879774687000368
+81,(coval_r_B_coval_r_X)+(MagpieData mean CovalentRadius _B),covalent_radius,0.0005838302176580044
+82,(coval_r_B_coval_r_X)/(MagpieData mean GSvolume_pa _B),covalent_radius,0.0005662275507244002
+83,SIr_B_SIr_X,shannon_radius_ratio,0.0005641294114991463
+84,(B_ionic_radius)/(MagpieData mean CovalentRadius _X),covalent_radius,0.0004982594312259806
+85,EnB/SIrB,electronegativity_shannon_radius_ratio,0.0004689788658296146
+86,(B_ionic_radius)/(MagpieData maximum CovalentRadius _B),covalent_radius,0.00042302226095749954
+87,(MagpieData maximum NUnfilled _B)/(B_shannon_rad),shannon_radius,0.00041508889078413925
+88,(MagpieData maximum NUnfilled _B)/(MagpieData maximum GSvolume_pa _B),unfilled,0.0004008794131760797
+89,coval_r_6X-B,covalent_radius_contrast,0.0003901650499758465
+90,(MagpieData maximum NUnfilled _B)/(X_shannon_rad),shannon_radius,0.00037427613705806725
+91,(MagpieData maximum NUnfilled _B)/(MagpieData maximum CovalentRadius _B),covalent_radius,0.00035544538733947193
+92,MagpieData mean GSbandgap _X,bandgap,0.00033792124399546937
+93,(MagpieData maximum NUnfilled _B)/(B_ionic_radius),ionic_radius,0.00033128477217290217
+94,I_r_6X-B,ionic_radius_contrast,0.0003258289063138053
+95,(coval_r_B_coval_r_X)/(MagpieData mean GSvolume_pa _X),covalent_radius,0.0003044390939577599
+96,(MagpieData maximum NUnfilled _B)/(MagpieData mean CovalentRadius _B),covalent_radius,0.00029923756497058225
+97,(MagpieData mean GSbandgap _X)/(X_shannon_rad),shannon_radius,0.00029797769465413234
+98,(coval_r_B_coval_r_X)/(MagpieData maximum CovalentRadius _B),covalent_radius,0.00028645271871674527
+99,(MagpieData mean GSbandgap _X)/(B_shannon_rad),shannon_radius,0.0002646240525108331
+100,(coval_r_B_coval_r_X)/(X_ionic_radius),covalent_radius,0.00025385756759756164
+101,I_r_X-B,ionic_radius_contrast,0.0002534836507612615
+102,(coval_r_B_coval_r_X)-(MagpieData mean CovalentRadius _B),covalent_radius,0.00021828902926357912
+103,(MagpieData maximum NUnfilled _B)/(MagpieData mean GSvolume_pa _B),unfilled,0.00017434223180379295
+104,Ir_B_Ir_X,ionic_radius_ratio,0.00014257270129591342
+105,cr_B_cr_X,covalent_radius_ratio,0.00014176586601449015
+106,(B_ionic_radius)/(X_ionic_radius),ionic_radius,0.0001414132629758104
+107,(MagpieData mean GSbandgap _X)/(MagpieData mean CovalentRadius _X),covalent_radius,0.00013202762708844793
+108,coval_r_B_coval_r_X,covalent_radius,0.0001290770023951826
+109,(B_ionic_radius)-(X_ionic_radius),ionic_radius,0.0001195843079508047
+110,MagpieData maximum NUnfilled _B,unfilled,0.00010997244988679729
+111,EnX/SIrX,electronegativity_shannon_radius_ratio,0.00010872410256003468
+112,(coval_r_B_coval_r_X)/(MagpieData mean CovalentRadius _B),covalent_radius,7.547382455671677e-05
+113,EnX/IrX,electronegativity_ionic_radius_ratio,4.8349060687790867e-05
+114,(MagpieData mean GSbandgap _X)/(MagpieData mean GSvolume_pa _X),bandgap,3.380053031422466e-05
+115,EnX/rX,electronegativity_covalent_radius_ratio,2.15368606071677e-05
+116,(MagpieData mean GSbandgap _X)/(X_ionic_radius),ionic_radius,5.02141787194087e-06

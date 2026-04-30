@@ -394,7 +394,7 @@ def cross_val_kfold(X,y,model,hyperparameter):
 if __name__ == "__main__":
 
     # 0. load best feature set
-    data = pd.read_csv('../feature_selection_combination/best_feature_set.csv')
+    data = pd.read_csv('../feature_selection_combination/final_compact_feature_set.csv')
     data_target = data.pop('formation_energy') 
     features = data.columns.tolist()
 

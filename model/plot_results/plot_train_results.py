@@ -300,7 +300,7 @@ def plot_feature_importance(features,feature_importance,sorted_idx_,model_name,
 if __name__ == '__main__':
 
     # 0. load results
-    data = pd.read_csv('../feature_selection_combination/best_feature_set.csv')
+    data = pd.read_csv('../feature_selection_combination/final_compact_feature_set.csv')
     data_target = data['formation_energy']
 
     data_features = pd.read_csv('../cross_validation/cross_validation_results/feature_importance.csv')

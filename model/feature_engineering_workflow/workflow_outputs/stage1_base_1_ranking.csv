@@ -1,0 +1,748 @@
+rank,feature,family,importance
+1,MagpieData avg_dev Electronegativity formula,electronegativity,0.3470553545422115
+2,DemlData std_dev electronegativity formula,other,0.09189569322365884
+3,PymatgenData std_dev X formula,other,0.06879170628782735
+4,MagpieData avg_dev NdValence formula,d_valence,0.054892808153500824
+5,MagpieData range CovalentRadius formula,covalent_radius,0.04565468805749056
+6,MagpieData mean SpaceGroupNumber formula,other,0.030331900085976006
+7,MagpieData mean NdValence formula,d_valence,0.029189643779201947
+8,local_difference_in_NdValence_allsites,local_difference:d_valence,0.02799860163811599
+9,MagpieData maximum GSbandgap formula,bandgap,0.023969276543747482
+10,MagpieData maximum NdValence formula,d_valence,0.019480959892157146
+11,MagpieData range NdValence formula,d_valence,0.018451502257030707
+12,MagpieData range GSbandgap formula,bandgap,0.013806047782627331
+13,MagpieData range NUnfilled formula,unfilled,0.013480031508288628
+14,MagpieData mean NUnfilled formula,unfilled,0.009724492747342647
+15,DemlData mean first_ioniz formula,other,0.007227593626482731
+16,MagpieData range SpaceGroupNumber formula,other,0.006450744109046748
+17,MagpieData mode Electronegativity formula,electronegativity,0.006294187702582607
+18,DemlData minimum molar_vol formula,other,0.006124789505424674
+19,MagpieData avg_dev NUnfilled formula,unfilled,0.006085559889115811
+20,local_difference_in_Electronegativity,local_difference:electronegativity,0.0056730200159613555
+21,MagpieData range NdUnfilled formula,d_unfilled,0.005568952805673646
+22,MagpieData avg_dev GSbandgap formula,bandgap,0.0044096548212157576
+23,local_difference_in_CovalentRadius,local_difference:covalent_radius,0.003952086842465979
+24,DemlData range first_ioniz formula,other,0.0038016725425366596
+25,MagpieData maximum NdUnfilled formula,d_unfilled,0.0037215274221588275
+26,coval_r_B_coval_r_X,covalent_radius,0.003588018624771713
+27,MagpieData mean NsValence formula,s_valence,0.0035520164529325585
+28,MagpieData avg_dev NsValence formula,s_valence,0.003053262164054557
+29,MagpieData maximum NUnfilled formula,unfilled,0.002967177684734768
+30,PymatgenData minimum thermal_conductivity formula,other,0.002831322394433068
+31,MagpieData mode SpaceGroupNumber formula,other,0.0028166160009577526
+32,MagpieData maximum MendeleevNumber formula,other,0.0027658370697414597
+33,pymatgen_B_poissons_ratio,other,0.0024501060711575096
+34,mean Average bond length,other,0.002060417602385917
+35,DemlData std_dev first_ioniz formula,other,0.0020460719183721943
+36,MagpieData mean NValence formula,valence,0.0018878765241401232
+37,std_dev ewald_site_energy,ewald,0.0018129253041204493
+38,DemlData std_dev boiling_point formula,other,0.0017008293611200122
+39,min_bondlength,other,0.0016112190459809863
+40,DemlData mean boiling_point formula,other,0.0016101491367432024
+41,oct_mean_bond,other,0.0016100105417058154
+42,mean ewald_site_energy,ewald,0.0015313754900631988
+43,MagpieData maximum NUnfilled _B,unfilled,0.001470789024460923
+44,vpa,other,0.0014539738031379473
+45,density,density,0.0014512391902314456
+46,MagpieData minimum NValence formula,valence,0.001424506479129048
+47,MagpieData maximum CovalentRadius formula,covalent_radius,0.0014236291464018828
+48,MagpieData mean GSbandgap formula,bandgap,0.001361027014408621
+49,MagpieData avg_dev MeltingT formula,other,0.0013433381404502746
+50,MagpieData mean GSbandgap _X,bandgap,0.0012973429948374
+51,MagpieData avg_dev NpValence formula,p_valence,0.0012878658800776516
+52,local_difference_in_Electronegativity_allsites,local_difference:electronegativity,0.0012245234976385466
+53,local_difference_in_CovalentRadius_allsites,local_difference:covalent_radius,0.001214885915218971
+54,DemlData range boiling_point formula,other,0.0011739177523922412
+55,site_EwaldSiteEnergy,ewald,0.001157226659817049
+56,MagpieData minimum NUnfilled formula,unfilled,0.0011066444718325443
+57,MagpieData mean NsUnfilled formula,s_unfilled,0.0010868080745480286
+58,MagpieData mean NpValence formula,p_valence,0.0010813686338981522
+59,MagpieData avg_dev NsUnfilled formula,s_unfilled,0.0010448359210607837
+60,MagpieData avg_dev NValence formula,valence,0.0010390548136196911
+61,B_ionic_radius,ionic_radius,0.001012989811132744
+62,PymatgenData std_dev block formula,other,0.001007500661176917
+63,mendeleev_X_proton_affinity,other,0.0010042813582360327
+64,MagpieData mean CovalentRadius formula,covalent_radius,0.0009836873442800155
+65,PymatgenData range X formula,other,0.0009584765594453379
+66,mendeleev_B_proton_affinity,other,0.0009559891568239446
+67,MagpieData maximum NpUnfilled formula,p_unfilled,0.0009516723705393592
+68,MagpieData range NValence formula,valence,0.0009464957293051697
+69,ewald_energy_per_atom,ewald,0.0009439663764362989
+70,local_difference_in_GSvolume_pa,local_difference:volume,0.0008992766418175096
+71,MagpieData range MendeleevNumber formula,other,0.0008876738610153901
+72,MagpieData avg_dev SpaceGroupNumber formula,other,0.0008741466647233066
+73,DemlData mean atom_radius formula,other,0.0008683813180130236
+74,std_dev Average bond length,other,0.0008642666906107354
+75,MagpieData range Electronegativity formula,electronegativity,0.0008585453463142636
+76,DemlData range electronegativity formula,other,0.0008248617119113487
+77,MagpieData maximum SpaceGroupNumber _X,other,0.0008168192699977801
+78,PymatgenData std_dev thermal_conductivity formula,other,0.00081480600545327
+79,mean_delta_d,other,0.0008069050603037658
+80,PymatgenData mean mendeleev_no formula,other,0.000800287159343423
+81,MagpieData avg_dev MendeleevNumber formula,other,0.0007947980898502214
+82,MagpieData mean Electronegativity formula,electronegativity,0.0007726642132958458
+83,MagpieData maximum CovalentRadius _B,covalent_radius,0.0007651212480298131
+84,MagpieData mean NpUnfilled formula,p_unfilled,0.0007558190035129848
+85,PymatgenData minimum mendeleev_no formula,other,0.000742898149039881
+86,mendeleev_B_electron_affinity,other,0.0007286485174387427
+87,MagpieData minimum MendeleevNumber formula,other,0.0007275580786371398
+88,B_shannon_rad,shannon_radius,0.0007106236452598118
+89,PymatgenData mean atomic_radius formula,other,0.0006907036894292085
+90,local_difference_in_GSbandgap_allsites,local_difference:bandgap,0.0006780577660258771
+91,DemlData minimum molar_vol _B,other,0.000673280292831072
+92,PymatgenData mean block formula,other,0.0006731059009892867
+93,pymatgen_B_electrical_resistivity,other,0.0006677683921788343
+94,MagpieData mode GSvolume_pa formula,volume,0.0006661680761474367
+95,mean ordering parameter shell 3,other,0.0006600940243953531
+96,MagpieData maximum NValence _B,valence,0.0006589021827684073
+97,X_shannon_rad,shannon_radius,0.0006507034610433898
+98,mean_oct_g,other,0.0006291620531454369
+99,MagpieData maximum GSvolume_pa _B,volume,0.0006263619312132755
+100,DemlData mean electronegativity formula,other,0.0006171509391811787
+101,mean neighbor distance variation,neighbor_distance,0.0006095634815579053
+102,mendeleev_B_density,density,0.0006072662791401762
+103,PymatgenData maximum X _B,other,0.0006041312764313906
+104,maximum neighbor distance variation,neighbor_distance,0.0006041312259785892
+105,MagpieData maximum NValence formula,valence,0.0005938077168013165
+106,MagpieData mean NpUnfilled _X,p_unfilled,0.0005900131542327351
+107,MagpieData avg_dev CovalentRadius formula,covalent_radius,0.0005760044442060729
+108,max_bondlength,other,0.0005577420340097275
+109,DemlData minimum boiling_point _X,other,0.0005448115386730574
+110,DemlData maximum boiling_point _B,other,0.0005438667538995062
+111,DemlData minimum col_num formula,other,0.0005438052946621492
+112,MagpieData maximum NsValence _B,s_valence,0.0005393208614504477
+113,DemlData maximum electronegativity _B,other,0.0005324095423384544
+114,minimum neighbor distance variation,neighbor_distance,0.0005252039804473568
+115,min relative bond length,other,0.0005226633358168615
+116,PymatgenData range mendeleev_no formula,other,0.0005145248478571369
+117,max relative bond length,other,0.0005091915675923048
+118,MagpieData maximum GSmagmom _B,other,0.0005024332096677311
+119,MagpieData maximum NpUnfilled _B,p_unfilled,0.0004760588762592039
+120,avg_dev neighbor distance variation,neighbor_distance,0.00047568219435199083
+121,MagpieData maximum Electronegativity _B,electronegativity,0.00047526533246419436
+122,PymatgenData std_dev mendeleev_no formula,other,0.00046782827813217023
+123,PymatgenData mean X formula,other,0.0004591908287655853
+124,MagpieData maximum NdUnfilled _B,d_unfilled,0.00044449936806597917
+125,PymatgenData mean thermal_conductivity formula,other,0.0004402769004556659
+126,PymatgenData range thermal_conductivity formula,other,0.000439051590482471
+127,DemlData mean molar_vol formula,other,0.0004380107109596415
+128,MagpieData mean GSmagmom _B,other,0.0004347395224015272
+129,DemlData range molar_vol formula,other,0.0004339201337338593
+130,max packing efficiency,other,0.00043030001212866623
+131,MagpieData minimum SpaceGroupNumber _B,other,0.00042513779445602404
+132,MagpieData mean GSmagmom formula,other,0.0004237138396103217
+133,mendeleev_X_electron_affinity,other,0.0004217058188940666
+134,MagpieData mean NUnfilled _X,unfilled,0.00041630821980961517
+135,PymatgenData minimum thermal_conductivity _B,other,0.0004106388104528454
+136,packing fraction,packing_fraction,0.0004093430937468238
+137,atom_num,other,0.00040531898975122195
+138,MagpieData minimum GSvolume_pa _B,volume,0.0003948554243579826
+139,MagpieData avg_dev NpUnfilled formula,p_unfilled,0.00039229798104631775
+140,DemlData maximum molar_vol _B,other,0.00038411538413507366
+141,MagpieData mean CovalentRadius _B,covalent_radius,0.0003837585883365912
+142,local_difference_in_NdValence,local_difference:d_valence,0.0003636496990340181
+143,mean ordering parameter shell 2,other,0.00035353144701863405
+144,MagpieData avg_dev Row formula,other,0.0003515269733244268
+145,MagpieData mean SpaceGroupNumber _X,other,0.00035081793138534896
+146,DemlData minimum first_ioniz formula,other,0.00034089464234321866
+147,DemlData std_dev molar_vol formula,other,0.0003403088215524797
+148,pymatgen_X_thermal_conductivity,other,0.0003349498929367179
+149,MagpieData range GSvolume_pa formula,volume,0.0003334642244969237
+150,PymatgenData maximum mendeleev_no _B,other,0.00033192497349612794
+151,DemlData maximum first_ioniz _B,other,0.00032722804833138256
+152,MagpieData minimum SpaceGroupNumber formula,other,0.0003262212618093303
+153,MagpieData avg_dev GSvolume_pa formula,volume,0.0003201332471580536
+154,MagpieData avg_dev NdUnfilled formula,d_unfilled,0.00031349467862842797
+155,DemlData maximum boiling_point formula,other,0.0003124683655614139
+156,MagpieData avg_dev GSmagmom formula,other,0.000310603460961554
+157,MagpieData mode GSvolume_pa _B,volume,0.00030930886961684994
+158,MagpieData mean MendeleevNumber formula,other,0.00029997233753341096
+159,MagpieData maximum NdValence _B,d_valence,0.00029606472460917574
+160,MagpieData mean GSvolume_pa _B,volume,0.0002959097165371598
+161,DemlData std_dev melting_point formula,other,0.0002941327283886714
+162,PymatgenData minimum group formula,other,0.000293407054056112
+163,structural complexity per atom,other,0.00029217978764650536
+164,range neighbor distance variation,neighbor_distance,0.00029134248219471964
+165,MagpieData mode SpaceGroupNumber _B,other,0.0002887989994893512
+166,MagpieData mean NUnfilled _B,unfilled,0.0002871425446259857
+167,MagpieData mean Row formula,other,0.0002771309581127169
+168,PymatgenData std_dev row formula,other,0.00027652280459624994
+169,mean ordering parameter shell 1,other,0.0002718842805038313
+170,DemlData minimum boiling_point formula,other,0.00027103560209517654
+171,mean absolute deviation in relative bond length,other,0.0002628805959046542
+172,structural complexity per cell,other,0.00026252354669741766
+173,MagpieData minimum Column formula,other,0.00026031155266626133
+174,MagpieData minimum GSvolume_pa formula,volume,0.0002541759286269692
+175,DemlData mean col_num formula,other,0.00024002829392703084
+176,pymatgen_B_thermal_conductivity,other,0.00023815744334921407
+177,PymatgenData range melting_point formula,other,0.00023566719527638567
+178,DemlData minimum electronegativity _X,other,0.00023433964029625202
+179,mean absolute deviation in relative cell size,other,0.00023192204813225016
+180,DemlData mean melting_point formula,other,0.00023114784782009542
+181,PymatgenData maximum thermal_conductivity formula,other,0.00022868008827771894
+182,MagpieData minimum CovalentRadius _B,covalent_radius,0.00022603874909456773
+183,MagpieData minimum NdValence formula,d_valence,0.00022009318045069321
+184,MagpieData avg_dev Column formula,other,0.00021952276280311054
+185,pymatgen_B_boiling_point,other,0.00021900439423327647
+186,mendeleev_B_electrophilicity,other,0.00021818100561374074
+187,PymatgenData std_dev group formula,other,0.00021695392725082645
+188,DemlData std_dev row_num formula,other,0.0002154537958129072
+189,MagpieData maximum CovalentRadius _X,covalent_radius,0.00021498240736568105
+190,connection_label,other,0.00021192100047317985
+191,DemlData std_dev col_num formula,other,0.00020219039328481762
+192,DemlData mean row_num formula,other,0.00020053139684372438
+193,MagpieData mode CovalentRadius formula,covalent_radius,0.00019751090215564958
+194,MagpieData maximum GSbandgap _X,bandgap,0.00019716244816421453
+195,n_symmetry_ops,other,0.00019485492483954617
+196,MagpieData maximum GSvolume_pa formula,volume,0.0001929125527738547
+197,spacegroup_num,other,0.00019125518332608796
+198,PymatgenData std_dev atomic_radius formula,other,0.00019122276034870534
+199,PymatgenData std_dev melting_point formula,other,0.00019023206147760245
+200,PymatgenData mean X _B,other,0.00018381569690273063
+201,PymatgenData mean row formula,other,0.0001818235833931564
+202,MagpieData mean Column formula,other,0.00017701854351594132
+203,DemlData maximum first_ioniz formula,other,0.00017398698855519462
+204,DemlData std_dev atom_radius formula,other,0.0001718410914148234
+205,PymatgenData mean atomic_radius _B,other,0.00017086099502376453
+206,PymatgenData mean melting_point formula,other,0.00016424987933935146
+207,MagpieData maximum MendeleevNumber _B,other,0.00016374795838298067
+208,PymatgenData mean thermal_conductivity _B,other,0.00016244903979338772
+209,MagpieData mode MeltingT formula,other,0.00016202279507536742
+210,MagpieData mean GSvolume_pa formula,volume,0.00016082109386345738
+211,DemlData std_dev atom_num formula,other,0.00016054778583935586
+212,PymatgenData maximum thermal_conductivity _B,other,0.0001597354761416807
+213,DemlData mean first_ioniz _X,other,0.00015653968833087646
+214,MagpieData mean SpaceGroupNumber _B,other,0.0001564697946859171
+215,DemlData minimum electronegativity formula,other,0.00015417776056819441
+216,DemlData range melting_point formula,other,0.00015323309984407665
+217,PymatgenData maximum X formula,other,0.0001520976899382097
+218,DemlData minimum boiling_point _B,other,0.00015176417788658963
+219,MagpieData maximum GSmagmom formula,other,0.00015120124773919798
+220,pymatgen_B_density_of_solid,density,0.00014499151310329476
+221,PymatgenData minimum atomic_radius _B,other,0.0001425396371636315
+222,MagpieData range MeltingT formula,other,0.00013900200607895493
+223,PymatgenData mean group formula,other,0.0001389196408295243
+224,PymatgenData mean mendeleev_no _B,other,0.00013798340483016326
+225,PymatgenData std_dev atomic_mass formula,other,0.00013661452134773995
+226,MagpieData mode NpUnfilled formula,p_unfilled,0.0001351372791536189
+227,MagpieData mode NpUnfilled _X,p_unfilled,0.00013506052856751785
+228,MagpieData maximum Number formula,other,0.00013373939198416782
+229,PymatgenData maximum melting_point _B,other,0.00013127838531022288
+230,MagpieData avg_dev AtomicWeight formula,other,0.00013019790817257946
+231,PymatgenData minimum thermal_conductivity _X,other,0.00012993009624560737
+232,MagpieData minimum Electronegativity formula,electronegativity,0.00012807842595028825
+233,DemlData maximum melting_point formula,other,0.00012714225469550767
+234,DemlData range atom_mass formula,other,0.00012251421638820385
+235,pymatgen_B_melting_point,other,0.00012242791815755765
+236,DemlData maximum atom_num formula,other,0.00012143082275094075
+237,PymatgenData maximum block formula,other,0.00011873214536393672
+238,MagpieData minimum Column _B,other,0.00011762863462737063
+239,PymatgenData minimum X _X,other,0.0001166858736762856
+240,DemlData mean electronegativity _X,other,0.00011559105952620752
+241,MagpieData mean MeltingT formula,other,0.00011556017590692605
+242,DemlData mean molar_vol _B,other,0.00011326620215773163
+243,MagpieData mean AtomicWeight formula,other,0.00011316926878288779
+244,PymatgenData maximum atomic_mass formula,other,0.00011267074740520046
+245,DemlData minimum molar_vol _X,other,0.00011204407931383188
+246,MagpieData mode GSmagmom _B,other,0.00011145221054445186
+247,MagpieData mean NdUnfilled formula,d_unfilled,0.00011027643792827116
+248,DemlData mean first_ioniz _B,other,0.00010937748279844465
+249,PymatgenData minimum mendeleev_no _B,other,0.0001087168173482777
+250,MagpieData mode CovalentRadius _B,covalent_radius,0.00010354778759115106
+251,MagpieData range Column formula,other,0.00010250858423635626
+252,connection_onehot_corner,other,0.00010068270699870765
+253,MagpieData minimum NUnfilled _B,unfilled,9.886149717842904e-05
+254,MagpieData minimum MeltingT formula,other,9.61836495057075e-05
+255,PymatgenData minimum X formula,other,9.551324939980826e-05
+256,MagpieData mean NfValence formula,other,9.41738220185834e-05
+257,PymatgenData mean atomic_mass formula,other,9.397283171374142e-05
+258,MagpieData range NpUnfilled formula,p_unfilled,9.341557688188078e-05
+259,MagpieData maximum MeltingT formula,other,9.14835324353089e-05
+260,DemlData minimum atom_radius _B,other,9.115161678520355e-05
+261,MagpieData range AtomicWeight formula,other,8.961415653114198e-05
+262,mendeleev_X_electrophilicity,other,8.947649530169104e-05
+263,DemlData maximum electronegativity formula,other,8.910942881410126e-05
+264,MagpieData maximum Electronegativity formula,electronegativity,8.767495172390127e-05
+265,MagpieData mean Number formula,other,8.725274827655228e-05
+266,MagpieData mean Electronegativity _B,electronegativity,8.442258445593893e-05
+267,MagpieData range GSmagmom formula,other,8.38519061209133e-05
+268,MagpieData maximum Number _B,other,8.354157445481545e-05
+269,MagpieData mean MeltingT _B,other,8.214194157192728e-05
+270,MagpieData mean NdValence _B,d_valence,8.210086644264676e-05
+271,PymatgenData mean atomic_mass _B,other,8.19119042442232e-05
+272,DemlData std_dev atom_mass formula,other,8.142011144154323e-05
+273,DemlData mean melting_point _B,other,8.069108277079192e-05
+274,DemlData mean atom_num formula,other,8.067586136389148e-05
+275,PymatgenData range atomic_mass formula,other,8.044970675808386e-05
+276,MagpieData mode AtomicWeight formula,other,7.808837468110749e-05
+277,DemlData mean atom_mass formula,other,7.785012808912578e-05
+278,PymatgenData maximum atomic_mass _B,other,7.780375032143548e-05
+279,MagpieData maximum Number _X,other,7.752880317240886e-05
+280,MagpieData minimum GSmagmom _B,other,7.726804742805764e-05
+281,DemlData minimum melting_point formula,other,7.67588394750712e-05
+282,MagpieData avg_dev Number formula,other,7.658656553060055e-05
+283,PymatgenData maximum melting_point formula,other,7.620671893560519e-05
+284,MagpieData maximum AtomicWeight formula,other,7.485125396688929e-05
+285,MagpieData mode NUnfilled formula,unfilled,7.412347193209314e-05
+286,DemlData range col_num formula,other,7.367091383253099e-05
+287,MagpieData minimum GSbandgap _X,bandgap,7.356227134647418e-05
+288,MagpieData mode Number _X,other,7.313272201341344e-05
+289,MagpieData avg_dev NfValence formula,other,7.297592662645902e-05
+290,DemlData range atom_radius formula,other,7.28321572964367e-05
+291,PymatgenData maximum group _B,other,7.20371734410459e-05
+292,PymatgenData range group formula,other,7.19701913754298e-05
+293,DemlData minimum first_ioniz _B,other,7.076948616746672e-05
+294,PymatgenData mean melting_point _B,other,7.062837576573197e-05
+295,DemlData maximum atom_mass formula,other,6.891751530357088e-05
+296,PymatgenData minimum melting_point formula,other,6.82272428577784e-05
+297,DemlData mean electronegativity _B,other,6.788756622139792e-05
+298,mendeleev_B_vdw_radius,other,6.736430584246945e-05
+299,MagpieData mean MendeleevNumber _X,other,6.657518045519032e-05
+300,MagpieData mean NsValence _B,s_valence,6.565711870777858e-05
+301,DemlData maximum molar_vol _X,other,6.545560158747808e-05
+302,MagpieData mean NValence _B,valence,6.404492126303386e-05
+303,PymatgenData minimum X _B,other,6.35698610229907e-05
+304,pymatgen_X_electrical_resistivity,other,6.262247590639674e-05
+305,MagpieData minimum NValence _B,valence,6.163104527334572e-05
+306,MagpieData maximum MeltingT _B,other,6.0823418007276433e-05
+307,MagpieData mean NpUnfilled _B,p_unfilled,6.005203115219787e-05
+308,MagpieData maximum AtomicWeight _B,other,5.897505644179614e-05
+309,MagpieData maximum Column _B,other,5.892567921990536e-05
+310,MagpieData mode NsValence formula,s_valence,5.8772490946051423e-05
+311,DemlData maximum atom_radius formula,other,5.848562337439026e-05
+312,DemlData minimum atom_num _B,other,5.7366340476456795e-05
+313,DemlData mean boiling_point _B,other,5.701001014152942e-05
+314,MagpieData maximum SpaceGroupNumber formula,other,5.69447651526899e-05
+315,MagpieData maximum NpValence formula,p_valence,5.6651252459960845e-05
+316,DemlData maximum atom_mass _B,other,5.5692696716166925e-05
+317,MagpieData minimum Electronegativity _B,electronegativity,5.367195835049597e-05
+318,DemlData range atom_num formula,other,5.358528742420815e-05
+319,DemlData minimum atom_num _X,other,5.321948648386824e-05
+320,PymatgenData maximum atomic_radius formula,other,5.245126590160336e-05
+321,MagpieData mean Electronegativity _X,electronegativity,5.214592560360939e-05
+322,DemlData maximum atom_radius _B,other,5.16821113465324e-05
+323,MagpieData mode MendeleevNumber formula,other,5.05848875599363e-05
+324,MagpieData range Number formula,other,5.012808559721883e-05
+325,DemlData minimum melting_point _B,other,4.999973355929912e-05
+326,PymatgenData range atomic_radius formula,other,4.9804127879487875e-05
+327,X_ionic_radius,ionic_radius,4.9699162312268965e-05
+328,PymatgenData range X _B,other,4.768673850428719e-05
+329,MagpieData mode Number formula,other,4.686093883705886e-05
+330,MagpieData mode NValence _B,valence,4.643787616984774e-05
+331,MagpieData mode MeltingT _B,other,4.496521532249214e-05
+332,MagpieData mean Row _X,other,4.4834483868720676e-05
+333,MagpieData maximum SpaceGroupNumber _B,other,4.410138653561882e-05
+334,MagpieData mean AtomicWeight _X,other,4.3446536764840736e-05
+335,MagpieData minimum Electronegativity _X,electronegativity,4.255709544431201e-05
+336,PymatgenData mean atomic_mass _X,other,4.226684631922696e-05
+337,MagpieData maximum NpUnfilled _X,p_unfilled,4.148275774467734e-05
+338,MagpieData mode GSbandgap formula,bandgap,4.027029842439929e-05
+339,DemlData maximum molar_vol formula,other,3.99430458711125e-05
+340,MagpieData minimum MeltingT _B,other,3.828855279196419e-05
+341,MagpieData minimum NsValence formula,s_valence,3.814262754228407e-05
+342,MagpieData mean Number _B,other,3.798025000075622e-05
+343,DemlData maximum first_ioniz _X,other,3.76641697077278e-05
+344,MagpieData mean NValence _X,valence,3.7124265467535235e-05
+345,MagpieData range SpaceGroupNumber _X,other,3.7075934522488826e-05
+346,DemlData mean col_num _B,other,3.6945847477662265e-05
+347,MagpieData mean MendeleevNumber _B,other,3.6247949053325064e-05
+348,mendeleev_X_vdw_radius,other,3.619213388301896e-05
+349,DemlData mean atom_num _B,other,3.5448705832612955e-05
+350,DemlData range first_ioniz _B,other,3.491997135776225e-05
+351,MagpieData mode Number _B,other,3.45789425769293e-05
+352,MagpieData mode Electronegativity _B,electronegativity,3.4446794050383614e-05
+353,DemlData std_dev first_ioniz _B,other,3.3698001640281845e-05
+354,connection_onehot_corner_edge,other,3.278471139270057e-05
+355,PymatgenData minimum atomic_mass _X,other,3.2302653080658404e-05
+356,MagpieData mean Number _X,other,3.1373767396408516e-05
+357,DemlData maximum melting_point _B,other,3.0159405027970703e-05
+358,MagpieData mode AtomicWeight _X,other,2.9801212258569148e-05
+359,MagpieData minimum Number _X,other,2.92581116749687e-05
+360,MagpieData mode NsUnfilled _B,s_unfilled,2.9049791112233884e-05
+361,MagpieData mode MeltingT _X,other,2.8768225551663453e-05
+362,PymatgenData maximum atomic_radius _B,other,2.8499334975371913e-05
+363,connection_binary_2,other,2.8399461507692356e-05
+364,mendeleev_B_mass,other,2.8205494864636857e-05
+365,MagpieData mode NUnfilled _B,unfilled,2.7621196907327898e-05
+366,mendeleev_X_electrons,other,2.7587367117797447e-05
+367,DemlData mean molar_vol _X,other,2.739579529325116e-05
+368,MagpieData mode Column formula,other,2.732587448817254e-05
+369,MagpieData mean AtomicWeight _B,other,2.726120134211422e-05
+370,connection_onehot_face,other,2.6448493571604833e-05
+371,DemlData mean atom_mass _X,other,2.6418575420820642e-05
+372,MagpieData mean NpValence _X,p_valence,2.634996746111517e-05
+373,PymatgenData minimum mendeleev_no _X,other,2.6216059179273147e-05
+374,MagpieData avg_dev Electronegativity _B,electronegativity,2.6014210772375385e-05
+375,DemlData mean atom_radius _B,other,2.563358756951165e-05
+376,PymatgenData minimum melting_point _B,other,2.5556586393957192e-05
+377,MagpieData mode Electronegativity _X,electronegativity,2.4755976425016182e-05
+378,DemlData range electronegativity _B,other,2.468228716795757e-05
+379,MagpieData mode NsValence _B,s_valence,2.4244530548549565e-05
+380,connection_onehot_no_connection,other,2.3734072465696313e-05
+381,mendeleev_B_electrons,other,2.303715999008995e-05
+382,MagpieData range MeltingT _X,other,2.3026271568008305e-05
+383,MagpieData minimum MendeleevNumber _B,other,2.29765028786321e-05
+384,DemlData maximum atom_num _B,other,2.283862589225541e-05
+385,MagpieData mean GSbandgap _B,bandgap,2.2765457429084946e-05
+386,MagpieData mode Column _B,other,2.248814153536035e-05
+387,PymatgenData minimum row _B,other,2.1903178995514906e-05
+388,MagpieData range MendeleevNumber _B,other,2.1902655894102307e-05
+389,MagpieData minimum AtomicWeight _X,other,2.1609959001623856e-05
+390,DemlData minimum atom_mass formula,other,2.1296615429520036e-05
+391,connection_binary_3,other,2.116195505746068e-05
+392,MagpieData range MendeleevNumber _X,other,2.1153684126266476e-05
+393,MagpieData range NpValence formula,p_valence,2.0980192898875705e-05
+394,DemlData mean boiling_point _X,other,2.069227119640371e-05
+395,DemlData minimum electronegativity _B,other,2.0272078151997167e-05
+396,MagpieData maximum Column _X,other,1.97596258573475e-05
+397,DemlData minimum first_ioniz _X,other,1.965867220888367e-05
+398,DemlData mean atom_radius _X,other,1.9552552997633842e-05
+399,MagpieData mode MendeleevNumber _B,other,1.953332535881268e-05
+400,MagpieData mode CovalentRadius _X,covalent_radius,1.9523394594664733e-05
+401,MagpieData maximum NUnfilled _X,unfilled,1.924482226805943e-05
+402,MagpieData minimum NdValence _B,d_valence,1.9209217206986435e-05
+403,MagpieData minimum NsValence _B,s_valence,1.903939558539762e-05
+404,mendeleev_X_density,density,1.8746469897090205e-05
+405,MagpieData minimum NpUnfilled _B,p_unfilled,1.857600122827788e-05
+406,PymatgenData mean mendeleev_no _X,other,1.826115522270219e-05
+407,MagpieData range Electronegativity _B,electronegativity,1.801359738293436e-05
+408,DemlData range row_num formula,other,1.780836789030185e-05
+409,PymatgenData minimum atomic_mass formula,other,1.7756135453826392e-05
+410,DemlData minimum atom_mass _X,other,1.7700760192582714e-05
+411,PymatgenData maximum row _B,other,1.7493386042925207e-05
+412,is_centrosymmetric,other,1.702164561364342e-05
+413,MagpieData mode NpValence _B,p_valence,1.664319563609191e-05
+414,crystal_system_int,other,1.639023453886934e-05
+415,MagpieData minimum NUnfilled _X,unfilled,1.5852329308221388e-05
+416,PymatgenData range row formula,other,1.5690996554253128e-05
+417,MagpieData minimum GSbandgap formula,bandgap,1.5524843078981345e-05
+418,MagpieData maximum NsUnfilled _B,s_unfilled,1.5435574017621898e-05
+419,MagpieData range GSmagmom _B,other,1.5216974880639592e-05
+420,DemlData std_dev heat_fusion _B,other,1.5012153264510393e-05
+421,MagpieData mode NValence _X,valence,1.4617781868354751e-05
+422,pymatgen_X_melting_point,other,1.4424560830432118e-05
+423,PymatgenData maximum melting_point _X,other,1.4342281516128254e-05
+424,MagpieData range CovalentRadius _B,covalent_radius,1.4134833431225999e-05
+425,DemlData minimum atom_mass _B,other,1.3823663477565963e-05
+426,PymatgenData std_dev thermal_conductivity _B,other,1.3578274531439913e-05
+427,MagpieData mode GSbandgap _B,bandgap,1.3506318190017753e-05
+428,MagpieData mode AtomicWeight _B,other,1.346828582833219e-05
+429,MagpieData minimum Column _X,other,1.3270125804428949e-05
+430,PymatgenData maximum atomic_radius _X,other,1.3185422050254305e-05
+431,MagpieData minimum AtomicWeight _B,other,1.2673092946259784e-05
+432,MagpieData mean CovalentRadius _X,covalent_radius,1.2550827777772206e-05
+433,MagpieData avg_dev MendeleevNumber _B,other,1.2548771158047139e-05
+434,MagpieData mean NpValence _B,p_valence,1.2285053291464363e-05
+435,MagpieData range Row formula,other,1.146985292899219e-05
+436,MagpieData mode NdValence _B,d_valence,1.1423766547925387e-05
+437,DemlData minimum row_num formula,other,1.1414978086932817e-05
+438,PymatgenData range melting_point _B,other,1.1206787930633798e-05
+439,MagpieData range NsValence formula,s_valence,1.0966222988205271e-05
+440,MagpieData mean GSvolume_pa _X,volume,1.0608890607883791e-05
+441,MagpieData mode SpaceGroupNumber _X,other,1.0581123296309488e-05
+442,MagpieData mode NpValence _X,p_valence,1.0396056667433626e-05
+443,MagpieData mode GSbandgap _X,bandgap,1.0350844348636557e-05
+444,MagpieData mean Column _X,other,9.795567819496075e-06
+445,MagpieData range SpaceGroupNumber _B,other,9.592199956251823e-06
+446,DemlData range first_ioniz _X,other,9.523463296977808e-06
+447,PymatgenData std_dev X _B,other,9.519410840378177e-06
+448,MagpieData minimum Number _B,other,9.446857840941513e-06
+449,MagpieData maximum MendeleevNumber _X,other,9.406152267073061e-06
+450,MagpieData mean Column _B,other,9.313381637788456e-06
+451,DemlData minimum atom_num formula,other,8.911995005906847e-06
+452,MagpieData avg_dev CovalentRadius _B,covalent_radius,8.435511421763208e-06
+453,DemlData mean atom_mass _B,other,8.350614253362475e-06
+454,MagpieData minimum NsUnfilled _B,s_unfilled,7.899367731630042e-06
+455,PymatgenData maximum thermal_conductivity _X,other,7.71182229889386e-06
+456,PymatgenData maximum atomic_mass _X,other,7.496256981717197e-06
+457,connection_binary_1,other,7.343304759747816e-06
+458,MagpieData range NdValence _B,d_valence,7.311883395524049e-06
+459,MagpieData range GSvolume_pa _B,volume,7.275637114934122e-06
+460,MagpieData minimum MeltingT _X,other,6.9763092906492466e-06
+461,PymatgenData mean group _B,other,6.964042722113979e-06
+462,PymatgenData range block formula,other,6.7776913867443796e-06
+463,PymatgenData mean melting_point _X,other,6.764163168754679e-06
+464,DemlData maximum row_num _X,other,6.737428994325042e-06
+465,MagpieData mode MendeleevNumber _X,other,6.687798724738802e-06
+466,PymatgenData range thermal_conductivity _B,other,6.647662328894494e-06
+467,PymatgenData maximum group _X,other,6.647295954299256e-06
+468,PymatgenData minimum atomic_mass _B,other,6.4601091682963984e-06
+469,MagpieData avg_dev SpaceGroupNumber _B,other,6.361327071866884e-06
+470,DemlData std_dev boiling_point _B,other,6.345930681645293e-06
+471,PymatgenData mean atomic_radius _X,other,6.319005363984064e-06
+472,DemlData maximum col_num formula,other,6.27022050273896e-06
+473,MagpieData maximum Column formula,other,5.934020192038793e-06
+474,MagpieData mode NpValence formula,p_valence,5.784127733193725e-06
+475,PymatgenData mean X _X,other,5.6402574352405115e-06
+476,PymatgenData mean thermal_conductivity _X,other,5.428891883315759e-06
+477,MagpieData minimum SpaceGroupNumber _X,other,5.396874263677585e-06
+478,mendeleev_X_mass,other,5.2396065411556394e-06
+479,MagpieData avg_dev GSmagmom _B,other,5.103865519952936e-06
+480,MagpieData maximum AtomicWeight _X,other,4.946578946853437e-06
+481,DemlData maximum col_num _B,other,4.7463029666279984e-06
+482,MagpieData mode GSvolume_pa _X,volume,4.740078862478826e-06
+483,connection_onehot_edge,other,4.611784168394748e-06
+484,MagpieData range Electronegativity _X,electronegativity,4.584184047675992e-06
+485,DemlData maximum boiling_point _X,other,4.582523953874699e-06
+486,connection_onehot_corner_face,other,4.567672670368694e-06
+487,DemlData range molar_vol _B,other,4.449263080351151e-06
+488,DemlData maximum row_num formula,other,4.389704667531211e-06
+489,PymatgenData minimum atomic_radius _X,other,4.3721654054804684e-06
+490,MagpieData mode NUnfilled _X,unfilled,4.3616188129929496e-06
+491,MagpieData maximum Electronegativity _X,electronegativity,4.282719792933914e-06
+492,MagpieData avg_dev GSvolume_pa _X,volume,4.190099806305358e-06
+493,MagpieData minimum NpValence _B,p_valence,4.1535578590194e-06
+494,PymatgenData maximum mendeleev_no _X,other,4.073947814952532e-06
+495,connection_onehot_corner_edge_face,other,3.995204561075675e-06
+496,MagpieData minimum NdUnfilled _B,d_unfilled,3.995131494528572e-06
+497,MagpieData range NUnfilled _B,unfilled,3.993016023238472e-06
+498,MagpieData minimum Number formula,other,3.987567031005542e-06
+499,MagpieData mode Row _X,other,3.913550952384255e-06
+500,PymatgenData minimum melting_point _X,other,3.869070179805578e-06
+501,MagpieData maximum NsUnfilled formula,s_unfilled,3.7896718646593295e-06
+502,PymatgenData maximum X _X,other,3.768278433430823e-06
+503,DemlData maximum electronegativity _X,other,3.721365693858558e-06
+504,MagpieData avg_dev Number _X,other,3.700593369715992e-06
+505,MagpieData minimum NpUnfilled _X,p_unfilled,3.6825281531517013e-06
+506,PymatgenData maximum group formula,other,3.6330950305158032e-06
+507,DemlData std_dev molar_vol _B,other,3.6200946596729614e-06
+508,DemlData std_dev first_ioniz _X,other,3.540927692837528e-06
+509,MagpieData mean NdUnfilled _B,d_unfilled,3.471221941699861e-06
+510,pymatgen_X_boiling_point,other,3.452271844183287e-06
+511,DemlData std_dev melting_point _B,other,3.4050257758486525e-06
+512,DemlData std_dev boiling_point _X,other,3.3792837408251633e-06
+513,MagpieData minimum Row _X,other,3.3653355082863393e-06
+514,DemlData range melting_point _B,other,3.261442599513999e-06
+515,MagpieData mode NdUnfilled _B,d_unfilled,3.13498612034675e-06
+516,PymatgenData range X _X,other,3.1292279339085865e-06
+517,MagpieData avg_dev GSbandgap _X,bandgap,2.959973699834804e-06
+518,dimensionality,other,2.8860486093772744e-06
+519,MagpieData range GSvolume_pa _X,volume,2.856318854561815e-06
+520,PymatgenData maximum mendeleev_no formula,other,2.8224026339233053e-06
+521,DemlData maximum atom_radius _X,other,2.815462630007474e-06
+522,DemlData std_dev atom_num _B,other,2.7788387521550447e-06
+523,PymatgenData mean block _B,other,2.6655097658090815e-06
+524,MagpieData mode Row formula,other,2.5577273374256595e-06
+525,DemlData mean atom_num _X,other,2.548529294280296e-06
+526,PymatgenData range atomic_radius _X,other,2.513744204212717e-06
+527,PymatgenData minimum group _B,other,2.436892112600371e-06
+528,DemlData range boiling_point _B,other,2.422089418627087e-06
+529,MagpieData avg_dev GSvolume_pa _B,volume,2.3833518594177e-06
+530,PymatgenData std_dev atomic_radius _B,other,2.333199485766555e-06
+531,DemlData range melting_point _X,other,2.331318734019528e-06
+532,PymatgenData mean row _B,other,2.300576250790371e-06
+533,MagpieData mean NsUnfilled _B,s_unfilled,2.2282659483721287e-06
+534,MagpieData avg_dev AtomicWeight _B,other,2.224544356208811e-06
+535,DemlData range atom_radius _B,other,2.1909270331730448e-06
+536,MagpieData avg_dev NUnfilled _B,unfilled,2.167477576714479e-06
+537,PymatgenData std_dev mendeleev_no _B,other,2.1581620933840337e-06
+538,PymatgenData std_dev atomic_mass _B,other,2.128815950225095e-06
+539,MagpieData avg_dev NpValence _X,p_valence,2.054993373621548e-06
+540,PymatgenData maximum row formula,other,2.032375346056339e-06
+541,MagpieData mode NValence formula,valence,2.028732376119044e-06
+542,PymatgenData range group _X,other,1.986991540579324e-06
+543,MagpieData maximum NValence _X,valence,1.9734833909962614e-06
+544,DemlData std_dev col_num _B,other,1.968652191528948e-06
+545,DemlData range boiling_point _X,other,1.964200274104883e-06
+546,MagpieData mode NpUnfilled _B,p_unfilled,1.944754657840651e-06
+547,DemlData maximum atom_mass _X,other,1.9092790789116635e-06
+548,MagpieData avg_dev Column _X,other,1.893696571581594e-06
+549,MagpieData minimum MendeleevNumber _X,other,1.8639570492785972e-06
+550,PymatgenData maximum block _B,other,1.788611735777165e-06
+551,MagpieData avg_dev Row _X,other,1.7804342425968563e-06
+552,DemlData mean row_num _B,other,1.7729597960747545e-06
+553,PymatgenData mean group _X,other,1.7313613961993939e-06
+554,MagpieData mode NfValence _B,other,1.7022720247253295e-06
+555,DemlData minimum atom_radius formula,other,1.677835967559718e-06
+556,MagpieData range Number _B,other,1.6518583951389894e-06
+557,MagpieData avg_dev Number _B,other,1.6352126152608679e-06
+558,MagpieData range NpUnfilled _B,p_unfilled,1.6333967513822434e-06
+559,DemlData std_dev electronegativity _B,other,1.6218049273280686e-06
+560,DemlData std_dev atom_radius _B,other,1.6200797441070937e-06
+561,MagpieData range NpValence _X,p_valence,1.6161489830664989e-06
+562,MagpieData minimum Row _B,other,1.610567002311159e-06
+563,DemlData minimum atom_radius _X,other,1.5636024371929687e-06
+564,DemlData minimum melting_point _X,other,1.5543840136999775e-06
+565,pymatgen_X_density_of_solid,density,1.5517253273163875e-06
+566,PymatgenData range mendeleev_no _B,other,1.5476537643190625e-06
+567,DemlData std_dev atom_mass _X,other,1.5408826550692807e-06
+568,MagpieData mean Row _B,other,1.5222018836884436e-06
+569,DemlData std_dev atom_mass _B,other,1.481736673724091e-06
+570,DemlData std_dev col_num _X,other,1.4789474586502148e-06
+571,MagpieData avg_dev NValence _B,valence,1.4641958118074918e-06
+572,MagpieData range Column _B,other,1.4636494286742602e-06
+573,PymatgenData std_dev melting_point _B,other,1.4612659827157394e-06
+574,MagpieData range NValence _B,valence,1.4343709242391966e-06
+575,MagpieData range AtomicWeight _X,other,1.4275257118040933e-06
+576,DemlData mean row_num _X,other,1.407465975610955e-06
+577,connection_onehot_edge_face,other,1.391411487935299e-06
+578,MagpieData range MeltingT _B,other,1.3719311648047934e-06
+579,MagpieData avg_dev NdUnfilled _B,d_unfilled,1.3644736117021572e-06
+580,DemlData maximum col_num _X,other,1.3620314954046554e-06
+581,MagpieData minimum CovalentRadius _X,covalent_radius,1.346038784955412e-06
+582,MagpieData range GSbandgap _B,bandgap,1.3361924835291239e-06
+583,MagpieData minimum AtomicWeight formula,other,1.3308295627796325e-06
+584,PymatgenData std_dev mendeleev_no _X,other,1.289821516258673e-06
+585,MagpieData mode GSmagmom formula,other,1.2880650606622661e-06
+586,MagpieData range AtomicWeight _B,other,1.284487243777285e-06
+587,MagpieData avg_dev NfValence _B,other,1.2564099481923021e-06
+588,PymatgenData range atomic_radius _B,other,1.222472123632782e-06
+589,MagpieData maximum Row formula,other,1.204558827782565e-06
+590,MagpieData avg_dev NdValence _B,d_valence,1.1636320358733208e-06
+591,DemlData std_dev molar_vol _X,other,1.1412099444623744e-06
+592,MagpieData avg_dev SpaceGroupNumber _X,other,1.12266773379288e-06
+593,MagpieData avg_dev Column _B,other,1.11068178374785e-06
+594,MagpieData avg_dev Electronegativity _X,electronegativity,1.0807774110070827e-06
+595,MagpieData minimum NpUnfilled formula,p_unfilled,1.0716059820042944e-06
+596,MagpieData mode Column _X,other,9.559046606818444e-07
+597,DemlData range electronegativity _X,other,9.400104594515792e-07
+598,MagpieData avg_dev MeltingT _B,other,9.265838602502837e-07
+599,MagpieData mean NsUnfilled _X,s_unfilled,9.076003134774865e-07
+600,PymatgenData range atomic_mass _B,other,9.029523930665743e-07
+601,MagpieData range NdUnfilled _B,d_unfilled,8.459654978453652e-07
+602,MagpieData minimum NpValence _X,p_valence,8.409691411565039e-07
+603,MagpieData avg_dev NpUnfilled _X,p_unfilled,8.367335346114709e-07
+604,PymatgenData std_dev group _B,other,8.280369880364261e-07
+605,pymatgen_X_poissons_ratio,other,8.127580428074116e-07
+606,PymatgenData range mendeleev_no _X,other,8.108532491589235e-07
+607,MagpieData maximum NpValence _X,p_valence,8.097274709874758e-07
+608,MagpieData range NpUnfilled _X,p_unfilled,7.86360917751181e-07
+609,DemlData minimum row_num _B,other,7.562874347338537e-07
+610,MagpieData mean MeltingT _X,other,7.221329182710766e-07
+611,MagpieData minimum NpValence formula,p_valence,6.956522927157163e-07
+612,PymatgenData minimum atomic_radius formula,other,6.937343998356041e-07
+613,PymatgenData std_dev melting_point _X,other,6.799480159154699e-07
+614,MagpieData avg_dev MendeleevNumber _X,other,6.565883707785555e-07
+615,PymatgenData std_dev group _X,other,6.380585794038601e-07
+616,PymatgenData std_dev X _X,other,6.35866619092821e-07
+617,DemlData maximum melting_point _X,other,6.308800427454375e-07
+618,DemlData range atom_num _X,other,6.193413074130653e-07
+619,DemlData range col_num _B,other,5.840094957459408e-07
+620,PymatgenData range block _B,other,5.400738002169617e-07
+621,MagpieData avg_dev NpUnfilled _B,p_unfilled,5.279084489348919e-07
+622,PymatgenData minimum row formula,other,5.036552153763912e-07
+623,MagpieData mode Row _B,other,4.937718650015386e-07
+624,DemlData maximum row_num _B,other,4.907191699148155e-07
+625,PymatgenData minimum row _X,other,4.789641541663358e-07
+626,DemlData minimum col_num _X,other,4.65351742487387e-07
+627,DemlData range atom_mass _B,other,4.6527479293406956e-07
+628,DemlData mean melting_point _X,other,4.6478326483147946e-07
+629,MagpieData mode NsUnfilled formula,s_unfilled,4.6466888362727926e-07
+630,MagpieData range GSbandgap _X,bandgap,4.631650511291657e-07
+631,MagpieData maximum Row _B,other,4.487840689012987e-07
+632,DemlData mean col_num _X,other,4.4818048583965523e-07
+633,MagpieData range NValence _X,valence,4.384561520460378e-07
+634,MagpieData maximum GSvolume_pa _X,volume,4.312775214592386e-07
+635,PymatgenData mean row _X,other,4.290530353730049e-07
+636,MagpieData minimum GSvolume_pa _X,volume,4.1384215573648216e-07
+637,PymatgenData range atomic_mass _X,other,4.084198678443609e-07
+638,DemlData range molar_vol _X,other,3.680184740845788e-07
+639,MagpieData range NpValence _B,p_valence,3.656717572539709e-07
+640,MagpieData range Number _X,other,3.644316994445451e-07
+641,MagpieData avg_dev NUnfilled _X,unfilled,3.57993293000399e-07
+642,MagpieData range NfValence formula,other,3.437849441454154e-07
+643,PymatgenData std_dev block _B,other,3.3938207571738716e-07
+644,DemlData range col_num _X,other,3.3409821581555164e-07
+645,DemlData range atom_num _B,other,3.190859418512251e-07
+646,MagpieData avg_dev Row _B,other,3.1443884701494283e-07
+647,DemlData range row_num _B,other,2.923177946755422e-07
+648,PymatgenData range group _B,other,2.886805783814007e-07
+649,PymatgenData minimum block formula,other,2.7828154850082097e-07
+650,DemlData minimum col_num _B,other,2.646940391399206e-07
+651,PymatgenData std_dev atomic_mass _X,other,2.525416220187345e-07
+652,MagpieData mode NdValence _X,d_valence,2.499268571130446e-07
+653,MagpieData range Row _B,other,2.422024874459673e-07
+654,MagpieData maximum NfValence formula,other,2.3694790041815403e-07
+655,PymatgenData maximum row _X,other,2.352399683117477e-07
+656,DemlData std_dev electronegativity _X,other,2.2792158351541708e-07
+657,MagpieData avg_dev NsValence _B,s_valence,2.2119497371536477e-07
+658,MagpieData range NsUnfilled formula,s_unfilled,2.1564017045729728e-07
+659,MagpieData minimum GSbandgap _B,bandgap,1.9567899985835922e-07
+660,DemlData std_dev row_num _X,other,1.9175135303889948e-07
+661,MagpieData avg_dev MeltingT _X,other,1.8885254882991878e-07
+662,DemlData range row_num _X,other,1.8712571848038617e-07
+663,DemlData maximum atom_num _X,other,1.7736239948743243e-07
+664,DemlData range atom_mass _X,other,1.7704756885320136e-07
+665,MagpieData minimum CovalentRadius formula,covalent_radius,1.7548911828874183e-07
+666,MagpieData maximum NpValence _B,p_valence,1.7348501504425966e-07
+667,PymatgenData range thermal_conductivity _X,other,1.6690118387175667e-07
+668,DemlData range atom_radius _X,other,1.5564383563730663e-07
+669,MagpieData avg_dev NValence _X,valence,1.5436491588990944e-07
+670,MagpieData avg_dev NsUnfilled _B,s_unfilled,1.4790837400154778e-07
+671,MagpieData mean NdValence _X,d_valence,1.4563751184891823e-07
+672,MagpieData maximum MeltingT _X,other,1.4509801911717026e-07
+673,DemlData std_dev melting_point _X,other,1.1601823052384627e-07
+674,PymatgenData std_dev row _X,other,1.1417519469688437e-07
+675,MagpieData minimum NValence _X,valence,1.1195250158784734e-07
+676,MagpieData avg_dev AtomicWeight _X,other,1.0436371756977277e-07
+677,MagpieData maximum GSbandgap _B,bandgap,1.0251374614075478e-07
+678,PymatgenData minimum block _B,other,9.780662995992587e-08
+679,MagpieData minimum NdValence _X,d_valence,9.499440738842769e-08
+680,DemlData std_dev row_num _B,other,9.02319199955754e-08
+681,MagpieData mode NdValence formula,d_valence,8.735456008060337e-08
+682,MagpieData maximum NfValence _B,other,8.527173957137762e-08
+683,MagpieData minimum Row formula,other,8.393948249462939e-08
+684,PymatgenData std_dev atomic_radius _X,other,7.652536021121604e-08
+685,MagpieData avg_dev NpValence _B,p_valence,7.600376810177814e-08
+686,MagpieData range Row _X,other,7.351309788743421e-08
+687,MagpieData range NUnfilled _X,unfilled,6.921307081326349e-08
+688,MagpieData range NsUnfilled _B,s_unfilled,6.547017295993629e-08
+689,MagpieData range NsValence _B,s_valence,6.530970242339012e-08
+690,MagpieData avg_dev CovalentRadius _X,covalent_radius,6.095809448517776e-08
+691,MagpieData avg_dev NdValence _X,d_valence,5.483520891214398e-08
+692,DemlData std_dev atom_radius _X,other,5.4696872915620536e-08
+693,MagpieData range NfValence _B,other,4.8867893457712855e-08
+694,MagpieData mean NfValence _B,other,4.857812422569345e-08
+695,PymatgenData range row _X,other,4.606115177288276e-08
+696,PymatgenData minimum group _X,other,4.556700597665647e-08
+697,MagpieData maximum NdUnfilled _X,d_unfilled,4.4040955234778315e-08
+698,MagpieData range Column _X,other,4.3958020175179564e-08
+699,PymatgenData range block _X,other,3.698469708438792e-08
+700,PymatgenData std_dev row _B,other,3.403522201287233e-08
+701,DemlData minimum row_num _X,other,2.8471085725162427e-08
+702,DemlData std_dev atom_num _X,other,2.2483577210606205e-08
+703,PymatgenData range row _B,other,2.104595089187912e-08
+704,MagpieData range NdUnfilled _X,d_unfilled,1.921702406567959e-08
+705,MagpieData mode NsUnfilled _X,s_unfilled,1.8373541407530512e-08
+706,MagpieData minimum NsValence _X,s_valence,1.8215167573798364e-08
+707,PymatgenData range melting_point _X,other,1.739622608157635e-08
+708,MagpieData maximum Row _X,other,1.4283826311168205e-08
+709,MagpieData mode NfValence _X,other,1.3978064146683784e-08
+710,MagpieData minimum NfValence _B,other,8.854751573037994e-09
+711,MagpieData mean NfValence _X,other,8.518816916343227e-09
+712,MagpieData range NdValence _X,d_valence,7.87629134330636e-09
+713,PymatgenData minimum block _X,other,6.4853618509445635e-09
+714,MagpieData minimum NsUnfilled _X,s_unfilled,3.2219114399749024e-09
+715,MagpieData avg_dev GSbandgap _B,bandgap,3.1948364339980457e-09
+716,PymatgenData mean block _X,other,3.184919694176548e-09
+717,MagpieData mean NsValence _X,s_valence,2.765055471836421e-09
+718,MagpieData maximum NsValence _X,s_valence,2.2226917918815813e-09
+719,MagpieData range CovalentRadius _X,covalent_radius,1.9176105313473064e-09
+720,PymatgenData std_dev block _X,other,1.8297145078125752e-09
+721,MagpieData maximum NdValence _X,d_valence,1.7245866021177336e-09
+722,MagpieData mode NdUnfilled _X,d_unfilled,1.4422982858438299e-09
+723,PymatgenData std_dev thermal_conductivity _X,other,1.2897414844969927e-09
+724,MagpieData minimum NdUnfilled _X,d_unfilled,2.9474816459289193e-10
+725,MagpieData maximum NsUnfilled _X,s_unfilled,1.59772460219833e-10
+726,MagpieData mode NsValence _X,s_valence,1.5194997081235043e-10
+727,MagpieData avg_dev NfValence _X,other,7.526833702159225e-11
+728,MagpieData range GSmagmom _X,other,5.432350273667527e-11
+729,PymatgenData maximum block _X,other,3.461560577905102e-11
+730,MagpieData minimum GSmagmom _X,other,2.686347402870338e-11
+731,MagpieData avg_dev NdUnfilled _X,d_unfilled,1.5529881956843057e-11
+732,MagpieData mode GSmagmom _X,other,0.0
+733,MagpieData maximum GSmagmom _X,other,0.0
+734,connection_onehot_unknown,other,0.0
+735,MagpieData avg_dev NsUnfilled _X,s_unfilled,0.0
+736,connection_binary_0,other,0.0
+737,MagpieData mode NfValence formula,other,0.0
+738,MagpieData range NsUnfilled _X,s_unfilled,0.0
+739,MagpieData range NfValence _X,other,0.0
+740,MagpieData mode NdUnfilled formula,d_unfilled,0.0
+741,MagpieData maximum NfValence _X,other,0.0
+742,MagpieData minimum NfValence _X,other,0.0
+743,MagpieData avg_dev NsValence _X,s_valence,0.0
+744,MagpieData mean GSmagmom _X,other,0.0
+745,MagpieData mean NdUnfilled _X,d_unfilled,0.0
+746,MagpieData range NsValence _X,s_valence,0.0
+747,MagpieData avg_dev GSmagmom _X,other,0.0

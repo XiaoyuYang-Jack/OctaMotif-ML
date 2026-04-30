@@ -1,0 +1,23 @@
+feature,family,complexity,lineage_stage,generated_successfully,in_clean_raw_pool,in_template_candidate_pool,in_stage1_base_pool,in_stage2_first_order_pool,in_stage3_second_order_pool,in_pre_rfe_pool,in_automated_final,formula,parents
+(EnB-6*EnX)/Ir_B-6X,electronegativity_ionic_radius_contrast_ratio,2,level2_template,True,False,True,False,False,False,False,False,(electronegativity_B - 6*electronegativity_X) / (-ionic_radius_B + 6*ionic_radius_X),Electronegativity_B-6X | I_r_6X-B
+(EnB-6*EnX)/SIr_B-6X,electronegativity_shannon_radius_contrast_ratio,2,level2_template,True,False,True,False,False,False,False,False,(electronegativity_B - 6*electronegativity_X) / (-shannon_radius_B + 6*shannon_radius_X),Electronegativity_B-6X | SI_r_6X-B
+(EnB-6*EnX)/coval_r_B-6X,electronegativity_covalent_radius_contrast_ratio,2,level2_template,True,False,True,False,False,True,True,True,(electronegativity_B - 6*electronegativity_X) / (-covalent_radius_B + 6*covalent_radius_X),Electronegativity_B-6X | coval_r_6X-B
+(vB+6*vX)/pf,volume,1,level1_template,True,False,True,False,False,False,False,False,(GSvolume_B + 6*GSvolume_X) / packing_fraction,MagpieData mean GSvolume_pa _B | MagpieData mean GSvolume_pa _X | packing fraction
+Electronegativity_B-6X,electronegativity_contrast,1,level1_template,True,False,True,False,True,False,False,False,electronegativity_B - 6*electronegativity_X,MagpieData mean Electronegativity _B | MagpieData mean Electronegativity _X
+Electronegativity_B-X,electronegativity_contrast,1,level1_template,True,False,True,False,True,True,False,False,electronegativity_B - electronegativity_X,MagpieData mean Electronegativity _B | MagpieData mean Electronegativity _X
+EnB/IrB,electronegativity_ionic_radius_ratio,1,level1_template,True,False,True,False,False,False,False,False,electronegativity_B / ionic_radius_B,MagpieData mean Electronegativity _B | B_ionic_radius
+EnB/IrB-6*EnX/IrX,electronegativity_ionic_radius_ratio,2,level2_template,True,False,True,False,False,False,False,False,(EnB/IrB) - 6*(EnX/IrX),EnB/IrB | EnX/IrX
+EnB/SIrB,electronegativity_shannon_radius_ratio,1,level1_template,True,False,True,False,False,False,False,False,electronegativity_B / shannon_radius_B,MagpieData mean Electronegativity _B | B_shannon_rad
+EnB/SIrB-6*EnX/SIrX,electronegativity_shannon_radius_ratio,2,level2_template,True,False,True,False,False,True,True,True,(EnB/SIrB) - 6*(EnX/SIrX),EnB/SIrB | EnX/SIrX
+EnB/rB,electronegativity_covalent_radius_ratio,1,level1_template,True,False,True,False,False,False,False,False,electronegativity_B / covalent_radius_B,MagpieData mean Electronegativity _B | MagpieData mean CovalentRadius _B
+EnB/rB-6*EnX/rX,electronegativity_covalent_radius_ratio,2,level2_template,True,False,True,False,False,True,True,True,(EnB/rB) - 6*(EnX/rX),EnB/rB | EnX/rX
+EnX/IrX,electronegativity_ionic_radius_ratio,1,level1_template,True,False,True,False,False,False,False,False,electronegativity_X / ionic_radius_X,MagpieData mean Electronegativity _X | X_ionic_radius
+EnX/SIrX,electronegativity_shannon_radius_ratio,1,level1_template,True,False,True,False,False,False,False,False,electronegativity_X / shannon_radius_X,MagpieData mean Electronegativity _X | X_shannon_rad
+EnX/rX,electronegativity_covalent_radius_ratio,1,level1_template,True,False,True,False,False,False,False,False,electronegativity_X / covalent_radius_X,MagpieData mean Electronegativity _X | MagpieData mean CovalentRadius _X
+I_r_6X-B,ionic_radius_contrast,1,level1_template,True,False,True,False,False,False,False,False,-ionic_radius_B + 6*ionic_radius_X,B_ionic_radius | X_ionic_radius
+I_r_X-B,ionic_radius_contrast,1,level1_template,True,False,True,False,False,False,False,False,-ionic_radius_B + ionic_radius_X,B_ionic_radius | X_ionic_radius
+Ir_B_Ir_X,ionic_radius_ratio,1,level1_template,True,False,True,False,False,False,False,False,ionic_radius_B / ionic_radius_X,B_ionic_radius | X_ionic_radius
+SI_r_6X-B,shannon_radius_contrast,1,level1_template,True,False,True,False,False,False,False,False,-shannon_radius_B + 6*shannon_radius_X,B_shannon_rad | X_shannon_rad
+SIr_B_SIr_X,shannon_radius_ratio,1,level1_template,True,False,True,False,False,False,False,False,shannon_radius_B / shannon_radius_X,B_shannon_rad | X_shannon_rad
+coval_r_6X-B,covalent_radius_contrast,1,level1_template,True,False,True,False,False,False,False,False,-covalent_radius_B + 6*covalent_radius_X,MagpieData mean CovalentRadius _B | MagpieData mean CovalentRadius _X
+cr_B_cr_X,covalent_radius_ratio,1,level1_template,True,False,True,False,False,False,False,False,covalent_radius_B / covalent_radius_X,MagpieData mean CovalentRadius _B | MagpieData mean CovalentRadius _X

@@ -1,0 +1,21 @@
+{
+  "initial_clean_feature_pool_size": 747,
+  "stage1_base_pool_size": 50,
+  "stage2_first_order_pool_size": 50,
+  "stage3_second_order_pool_size": 50,
+  "stage3_pool_size": 50,
+  "template_candidate_pool_size": 75,
+  "level1_template_candidates": 16,
+  "level1_optional_candidates": 50,
+  "level2_template_candidates": 6,
+  "level2_optional_candidates": 3,
+  "required_manuscript_templates": 22,
+  "required_manuscript_templates_generated": 22,
+  "automated_rfe_38_size": 38,
+  "pre_rfe_pool_size": 38,
+  "automated_rfe_38_mean_mse": 0.0206329780020763,
+  "automated_rfe_38_mean_mae": 0.08267571285012856,
+  "automated_rfe_to_38_best_mse": 0.019119350882788842,
+  "reference_manuscript_final_34_mean_mse": 0.020899005938687893,
+  "max_generated_complexity": 2
+}
