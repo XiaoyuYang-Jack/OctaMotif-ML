@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_KV2Co(AgO4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.42186873
+_cell_length_b   5.42181345
+_cell_length_c   7.38049079
+_cell_angle_alpha   89.99967365
+_cell_angle_beta   90.00500513
+_cell_angle_gamma   120.00653422
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KV2Co(AgO4)2
+_chemical_formula_sum   'K1 V2 Co1 Ag2 O8'
+_cell_volume   187.88012586
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  1  0.66665962  0.33327725  0.73516847  1
+  Ag  Ag1  1  0.33334038  0.66672275  0.26483153  1
+  K  K2  1  0.00000000  0.00000000  0.00000000  1
+  Co  Co3  1  0.00000000  0.00000000  0.50000000  1
+  V  V4  1  0.66667614  0.33334817  0.27746767  1
+  V  V5  1  0.33332386  0.66665183  0.72253233  1
+  O  O6  1  0.75580598  0.67993678  0.34824063  1
+  O  O7  1  0.92410518  0.24421314  0.34828721  1
+  O  O8  1  0.32005130  0.07590590  0.34833358  1
+  O  O9  1  0.24419402  0.32006322  0.65175937  1
+  O  O10  1  0.07589482  0.75578686  0.65171279  1
+  O  O11  1  0.67994870  0.92409410  0.65166642  1
+  O  O12  1  0.66652198  0.33318027  0.04927968  1
+  O  O13  1  0.33347802  0.66681973  0.95072032  1

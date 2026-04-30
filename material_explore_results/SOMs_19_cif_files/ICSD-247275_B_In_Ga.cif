@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Zn4Ga2O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.24576055
+_cell_length_b   3.24562546
+_cell_length_c   33.39520807
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00137680
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zn4Ga2O7
+_chemical_formula_sum   'Zn8 Ga4 O14'
+_cell_volume   304.66575288
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.00000000  0.00000000  0.50000000  1
+  Ga  Ga1  1  0.00000000  0.00000000  0.00000000  1
+  Zn  Zn2  1  0.66663769  0.33327538  0.41142166  1
+  Zn  Zn3  1  0.33336231  0.66672462  0.58857834  1
+  Zn  Zn4  1  0.33336231  0.66672462  0.91142166  1
+  Zn  Zn5  1  0.66663769  0.33327538  0.08857834  1
+  Zn  Zn6  1  0.99995562  0.99991123  0.33114525  1
+  Zn  Zn7  1  0.00004438  0.00008877  0.66885475  1
+  Zn  Zn8  1  0.00004438  0.00008877  0.83114525  1
+  Zn  Zn9  1  0.99995562  0.99991123  0.16885475  1
+  Ga  Ga10  1  0.66662165  0.33324331  0.25000000  1
+  Ga  Ga11  1  0.33337835  0.66675669  0.75000000  1
+  O  O12  1  0.66666695  0.33333391  0.47123615  1
+  O  O13  1  0.33333305  0.66666609  0.52876385  1
+  O  O14  1  0.33333305  0.66666609  0.97123615  1
+  O  O15  1  0.66666695  0.33333391  0.02876385  1
+  O  O16  1  0.99998675  0.99997350  0.39100610  1
+  O  O17  1  0.00001325  0.00002650  0.60899390  1
+  O  O18  1  0.00001325  0.00002650  0.89100610  1
+  O  O19  1  0.99998675  0.99997350  0.10899390  1
+  O  O20  1  0.66660820  0.33321641  0.31070250  1
+  O  O21  1  0.33339180  0.66678359  0.68929750  1
+  O  O22  1  0.33339180  0.66678359  0.81070250  1
+  O  O23  1  0.66660820  0.33321641  0.18929750  1
+  O  O24  1  0.99997915  0.99995829  0.25000000  1
+  O  O25  1  0.00002085  0.00004171  0.75000000  1
